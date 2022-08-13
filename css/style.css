@@ -1,6 +1,11 @@
+body{
+    background-color: #c1c1c2;
+}
+
 .qr-code-generator {
     width: 500px;
     margin: 0 auto;
+    border-radius: 12px;
     }
     
     .qr-code-generator * {
@@ -23,7 +28,7 @@
     .qr-url, .qr-size {
     padding: 0.5em;
     border: 1px solid #ddd;
-    border-radius: 2px;
+    border-radius: 12px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -46,5 +51,6 @@
     border: none;
     cursor: pointer;
     background-color: #292726;
+    border-radius: 12px;
     color: #fff;
     }
